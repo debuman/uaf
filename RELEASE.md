@@ -86,14 +86,14 @@ cd debian
 Source: uaf
 Section: net
 Priority: optional
-Maintainer: devastator-x
+Maintainer: sqzer-x
 Build-Depends: debhelper-compat (= 13),
                dh-python,
                python3-all,
                python3-setuptools
 Standards-Version: 4.6.0
-Homepage: https://github.com/devastator-x/uaf
-Vcs-Git: https://github.com/devastator-x/uaf.git
+Homepage: https://github.com/sqzer-x/uaf
+Vcs-Git: https://github.com/sqzer-x/uaf.git
 
 Package: uaf
 Architecture: all
@@ -136,7 +136,7 @@ uaf (1.0.0-1) unstable; urgency=medium
   * Active reconnaissance on open networks
   * CSV/JSON export support
 
- -- devastator-x  Tue, 11 Feb 2026 22:00:00 +0900
+ -- sqzer-x  Tue, 11 Feb 2026 22:00:00 +0900
 ```
 
 #### `debian/copyright`
@@ -144,11 +144,11 @@ uaf (1.0.0-1) unstable; urgency=medium
 ```
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: uaf
-Upstream-Contact: devastator-x
-Source: https://github.com/devastator-x/uaf
+Upstream-Contact: sqzer-x
+Source: https://github.com/sqzer-x/uaf
 
 Files: *
-Copyright: 2026 devastator-x
+Copyright: 2026 sqzer-x
 License: GPL-2.0-or-later
 
 License: GPL-2.0-or-later
@@ -214,7 +214,7 @@ sudo apt remove uaf
 
 사용자는 다음과 같이 설치:
 ```bash
-wget https://github.com/devastator-x/uaf/releases/download/v1.0.0/uaf_1.0.0-1_all.deb
+wget https://github.com/sqzer-x/uaf/releases/download/v1.0.0/uaf_1.0.0-1_all.deb
 sudo dpkg -i uaf_1.0.0-1_all.deb
 sudo apt-get install -f
 ```

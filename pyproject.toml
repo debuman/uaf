@@ -6,7 +6,7 @@ requires-python = ">=3.10"
 license = {text = "GPL-2.0-or-later"}
 readme = "README.md"
 authors = [
-    {name = "devastator-x"},
+    {name = "sqzer-x"},
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -24,9 +24,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/devastator-x/uaf"
-Repository = "https://github.com/devastator-x/uaf"
-Issues = "https://github.com/devastator-x/uaf/issues"
+Homepage = "https://github.com/sqzer-x/uaf"
+Repository = "https://github.com/sqzer-x/uaf"
+Issues = "https://github.com/sqzer-x/uaf/issues"
 
 [project.optional-dependencies]
 dev = [
