@@ -61,7 +61,7 @@ pip install uaf
 ### From source
 
 ```bash
-git clone https://github.com/sqzer-x/uaf.git
+git clone https://github.com/debuman/uaf.git
 cd uaf
 pip install -e .
 ```
@@ -197,7 +197,7 @@ pip install uaf
 ### 소스에서 설치
 
 ```bash
-git clone https://github.com/sqzer-x/uaf.git
+git clone https://github.com/debuman/uaf.git
 cd uaf
 pip install -e .
 ```
